@@ -1,1 +1,2 @@
-'worker: python v.py'
+heroku ps:scale worker=1
+worker: python .py 
